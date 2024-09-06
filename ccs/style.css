@@ -1,0 +1,106 @@
+@font-face {
+    font-family: h2;
+    src: url("../assets/fuentes/University.otf") format("truetype");
+}
+
+
+.bgbody{
+    background-color: rgb(0, 46, 0);
+}
+
+.text-color{
+    color: aqua;
+}
+
+h1{
+    color: yellow;
+    font-size: 4vw;
+}
+
+h2{
+    color: rgb(213, 255, 25);
+    font-size: 6vw;
+    font-family: h2;
+    /* filter: drop-shadow (8px 8px 4px #faea18) */
+    text-shadow: 8px 8px 3px rgba(0, 0, 0, 0.89);
+}
+
+.main{
+    margin-top: 150px;
+}
+.hover:hover {
+    transform: scale(1.05);
+    transition:ease 0.5s;
+    color: green !important;
+}
+
+.carousel-item2{
+    height: 200px;
+    width: 100vw;
+}
+
+.nav-link {
+    color:yellow !important; 
+}
+
+.card{
+    border: 1px solid black;
+}
+
+
+.dropdown-menu{
+    color: none !important;
+}
+
+.dropdown-item{
+    border: 1px solid white !important;
+    border-radius: 10px;
+
+}
+
+.img-items{
+    margin: 0;
+    height: 150px;
+
+}
+
+.img-items:hover{
+    transform: scale(1.05);
+    transition:ease 0.5s;
+
+}
+
+.letra-form{
+    color: aqua;
+}
+
+
+
+@media(min-width:768px) {
+
+    h2{
+        font-size: 4vw;
+    }
+    
+    .carousel-item2{
+        height: 600px;
+        width: 100vw;
+    }
+}
+
+
+@media(min-width: 992px) {
+    .hover:hover {
+        transform: scale(1.25);
+        transition:ease 0.5s;
+    }
+
+    h1{
+        display: none;
+    }
+    
+    .img-items{
+        height: 300px;
+    }
+    
+}
